@@ -16,5 +16,42 @@ public class Main {
 
         float nF = 12.56F;
         double nD = 4545.78787878;
+
+        // condicional if
+
+        int age2 = 12;
+
+        if (age2 >= 18) {
+            System.out.println("Eres mayor de edad");
+        } else if (age2 <= 14) {
+            System.out.println("Eres un adolecente");
+        } else {
+            System.out.println("Eres menor de edad");
+        }
+
+        // condicional switch
+
+        int dia = 9;
+        String nombreDia;
+
+        switch (dia) {
+            case 1:nombreDia="lunes";
+                break;
+            case 2:nombreDia="martes";
+                break;
+            case 3:nombreDia="miercoles";
+                break;
+            case 4:nombreDia="jueves";
+                break;
+            case 5:nombreDia="viernes";
+                break;
+            case 6:nombreDia="sabado";
+                break;
+            case 7:nombreDia="domingo";
+                break;
+            default: nombreDia="invalido";
+        }
+
+        System.out.println("el dia de la semana es: " + nombreDia);
     }
 }
