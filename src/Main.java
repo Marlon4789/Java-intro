@@ -31,7 +31,7 @@ public class Main {
 
         // condicional switch
 
-        int dia = 9;
+        int dia = 3;
         String nombreDia;
 
         switch (dia) {
