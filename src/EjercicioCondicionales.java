@@ -14,6 +14,8 @@ public class EjercicioCondicionales {
         double comisionDelMonto = 0.005;
 
         System.out.println("*************************************");
+        System.out.println("Bienvenido al fonde de inversión Mu-Banck");
+        System.out.println("*************************************");
         System.out.println("Escoja la categoria de la inversión: ");
         System.out.println("1.Mensual 1%");
         System.out.println("2.Semestral 2%");
