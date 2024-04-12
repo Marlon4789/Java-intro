@@ -25,13 +25,24 @@ public class EjercicioCondicionales {
 
 
         if (categoria == 1) {
-            inversionTotal = invertir - (invertir * comisionDelMonto);
-            inversionTotal = inversionTotal + (inversionTotal * 0.01);
+            inversionTotal = invertir + (invertir * 0.01);
+            inversionTotal = inversionTotal - (inversionTotal * comisionDelMonto);
+
+            System.out.println("Comisión por inversión 0.5% sobre el capital invertido.");
+            System.out.println("Total fondo a desenbolsar en un mes es: " + inversionTotal);
+
+        } else if (categoria == 2) {
+            inversionTotal = invertir + (6 * (invertir * 0.02));
+            inversionTotal = inversionTotal - (6 * (inversionTotal * comisionDelMonto));
+
+            System.out.println("Comisión por inversión 0.5% sobre el capital invertido.");
+            System.out.println("Total fondo a desenbolsar en un semestre es: " + inversionTotal);
+        } else if (categoria == 3) {
+            inversionTotal = invertir + (12 * (invertir * 0.028));
+            inversionTotal = inversionTotal - (12 * (inversionTotal * comisionDelMonto));
+
+            System.out.println("Comisión por inversión 0.5% sobre el capital invertido.");
+            System.out.println("Total fondo a desenbolsar en un año: " + inversionTotal);
         }
-
-        System.out.println("Comisión por inversión 0.5% sobre el capital invertido.");
-        System.out.println("Toal fondo a desenbolar en un mes es: " + inversionTotal);
-
-
     }
 }
