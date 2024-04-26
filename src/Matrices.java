@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Matrices {
     public static void main(String[] args) {
-        // Las matrices son bidimencionales, osea mas de una, va a tener filas y va atener columnas.
+        // Las matrices son bidimencionales, osea mas de una, va a tener
+        // filas y va atener columnas.
 
         // Declaración.
         int matriz [][]= new int[3][3];
